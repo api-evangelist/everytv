@@ -1,8 +1,15 @@
 aid: everytv
 name: Every.tv
-description: 'Every.tv is a company surfaced as a portfolio company of dcm-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Every, Inc. (株式会社エブリー, corp.every.tv) is a Tokyo-based Japanese
+  video-media and advertising company that runs consumer lifestyle products including
+  DELISH KITCHEN (recipe video media), retailHUB (a retail promotion and data platform
+  connecting physical stores with digital channels), トモニテ / Tomonite (parenting
+  video media and community), and MOMENTH (a professional video production and social
+  team). Led by CEO Taissei Yoshida and headquartered in Roppongi, Minato, Tokyo,
+  the company approached an IPO on the Tokyo Stock Exchange Growth Market. It was
+  surfaced as a portfolio company of dcm-ventures and added to the API Evangelist
+  network for enrichment. Every, Inc. publishes an engineering blog and owned media
+  but exposes no public developer API program.'
 url: https://raw.githubusercontent.com/api-evangelist/everytv/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,31 @@ x-backed-by:
 - dcm-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://corp.every.tv/media/3Kyf0nwiFIpNszv6mB72QNsQJQqLi0E5SDgZ3ZAs.webp
 tags:
 - Company
 - Consumer
+- Media
+- Video
+- Advertising
+- Cooking
+- Parenting
+- Retail
+- Japan
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/everytv-domain-security.yml
 - type: Website
   url: https://corp.every.tv/
+- type: Blog
+  url: https://tech.every.tv/
+- type: Support
+  url: https://corp.every.tv/contacts/new
+- type: PrivacyPolicy
+  url: https://corp.every.tv/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
