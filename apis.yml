@@ -41,7 +41,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 image: https://corp.every.tv/media/3Kyf0nwiFIpNszv6mB72QNsQJQqLi0E5SDgZ3ZAs.webp
 tags:
 - Company
@@ -60,6 +60,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://corp.every.tv/news
+  type: Blog
 - type: DomainSecurity
   url: security/everytv-domain-security.yml
 - type: Website
