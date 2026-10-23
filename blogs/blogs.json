@@ -12,8 +12,15 @@
       "source": "https://tech.every.tv/",
       "feed_url": "https://tech.every.tv/feed",
       "title": "",
-      "saved": 3,
+      "saved": 0,
       "method": "discovered"
+    },
+    {
+      "source": "https://tech.every.tv/feed",
+      "feed_url": "https://tech.every.tv/feed",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     },
     {
       "source": "https://corp.every.tv/",
@@ -23,6 +30,6 @@
       "method": "none"
     }
   ],
-  "post_count": 3,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 22,
+  "fetched": "2026-10-17T14:53:57Z"
 }
